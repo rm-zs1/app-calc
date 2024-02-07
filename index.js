@@ -13,3 +13,5 @@ switch (sign) {
     break;
     default: 
 }
+const main = document.querySelector('main');
+main.innerText = result;
