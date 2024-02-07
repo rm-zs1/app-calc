@@ -12,6 +12,7 @@ switch (sign) {
     case '/':result = number1 + number2; 
     break;
     default: 
+        result = 'Invalid sign';
 }
 const main = document.querySelector('main');
 main.innerText = result;
