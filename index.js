@@ -3,13 +3,13 @@ const number2 = Number(prompt('Input 2 number'));
 const sign = prompt('Input sign + - * /');
 let result;
 switch (sign) {
-    case '+':result = number1 - number2; 
+    case '+':result = number1 + number2; 
     break;
-    case '-':result = number1 * number2; 
+    case '-':result = number1 - number2; 
     break;
-    case '*':result = number1 / number2; 
+    case '*':result = number1 * number2; 
     break;
-    case '/':result = number1 + number2; 
+    case '/':result = number1 / number2; 
     break;
     default: 
         result = 'Invalid sign';
